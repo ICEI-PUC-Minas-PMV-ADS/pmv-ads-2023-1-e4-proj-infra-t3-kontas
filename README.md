@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+#  KONTAS
 
-`CURSO`
 
-`DISCIPLINA`
+`Analise e Desenvolvimento de Sistema`
 
-`SEMESTRE`
+`Eixo 4 - Projeto: Desenvolvimento de uma Aplicação Distribuída`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+`4º SEMESTRE`
+
+Aplicação que ajude os usuários a gerenciar suas contas recorrentes, aquelas despesas que você precisa pagar todos os meses, controlar seu próprio dinheiro além programar a melhor forma de redirecioná-lo mensalmente, semanalmente e ou anualmente.  
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Aline Martins Candido 
+* Victor Bruno Kulessa
+* Rafael Pacheco Leite
+* Gabriel Judá De Oliveira
+* Jessica Raissa Araujo Oliveira Queroz Lopes
 
 ## Orientador
 
-* Nome completo do professor 1
+*  Leonardo Vilela Cardoso 
 
 ## Instruções de utilização
 
