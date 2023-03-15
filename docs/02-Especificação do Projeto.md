@@ -71,53 +71,47 @@ Usar o seguinte modelo:
 ![Indicadores de Desempenho](img/02-indic-desemp.png)
 Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
 
-## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
+## Requisitos 
 
-### Requisitos Funcionais
+O objetivo estrutural prático do projeto é definido através dos requisitos funcionais que retratam as intenções de comunicação do site com o usuário e disponibilizam as funções esperadas para utilização da ferramenta, tal como os requisitos não funcionais que representam as características técnicas que a equipe deve utilizar na estrutura da montagem do projeto. A seguir serão apresentados os aspectos.nica foi aplicada. 
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+### Requisitos Funcionais 
 
-### Requisitos não Funcionais
+O quadro a seguir exibe os requisitos funcionais da solução, apontando quais são as prioridades que devem ser atendidas:  
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|ID | Descrição do Requisito | Prioridade | 
+|------|-----------------------------------------|----| 
+|RF-001| A aplicação deve permitir gerenciar agendamentos de contas. | ALTA |  
+|RF-002| A aplicação deve permitir gerenciar usuários. | ALTA | 
+|RF-003| O Sistema deve permitir o acesso a contas. | ALTA | 
+|RF-004| O Sistema deve permitir o cadastro de contas. | ALTA | 
+|RF-005| O Sistema deve fornecer ao usuário uma mensagem de confirmação da alteração de senha. | ALTA | 
+|RF-006| O Sistema deve fornecer uma função para marcar contas pagas e contas a pagar. | ALTA | 
+|RF-007| O Sistema deve fornecer o gerenciamento de contas. | ALTA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
+### Requisitos não Funcionais 
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+O quadro a seguir representam as ferramentas técnicas que devem ser utilizadas no projeto no formato de requisitos não funcionais: 
 
-## Restrições
+|ID | Descrição do Requisito |Prioridade | 
+|-------|-------------------------|----| 
+|RNF-001| O sistema deve ser implementado na linguagem C#, html, CSS e Java Script. | ALTA |  
+|RNF-002| As informações de cadastro do cliente devem ficar disponiveis apenas para os clientes e para a plataforma. | ALTA | 
+|RNF-003| O site deve estar disponível para os principais navegadores: Chrome, Firefox, Edge. | ALTA | 
+|RNF-004| O sistemae deve estar disponivel 24hrs por dia, os sete dias da semana | ALTA | 
+|RNF-005| O site deve ser responsivo, compativel a qualquer tipo de aparelho. Ex: Notebook, tablet, celular. | ALTA | 
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+## Restrições 
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+O projeto está restrito pelos itens apresentados na tabela a seguir. 
+O andamento desse projeto limita-se por deveres visíveis para a sua conclusão. O quadro a seguir exibi quais são essas limitações.  
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|ID| Restrição | 
+|--|-------------------------------------------------------| 
+|RE-01| O projeto deve ser entregue ao final do semestre, não ultrapassando o final do semestre. | 
+|RE-02| O projeto deve ser desenvolvido em HTML, CSS, JAVA SCRIPT e C#. | 
+|RE-03| O projeto deve ser realizado pela equipe formada sem interferências externas. | 
 
 ## Diagrama de Casos de Uso
 
