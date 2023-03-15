@@ -2,7 +2,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
 
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
@@ -13,6 +13,7 @@ Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se de
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
+>
 > - [Rock Content](https://rockcontent.com/blog/personas/)
 > - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
 > - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
@@ -20,31 +21,34 @@ Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos 
 > - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
 > - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
 >
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+> Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+| EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE`                                                       | PARA ... `MOTIVO/VALOR`                                |
+| -------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| Pedro Siqueira       | Adicionar uma nova conta a pagar.                                                        | Manter um registro de todas as minhas contas a pagar.  |
+| Pedro Siqueira       | Visualizar contas pendentes de pagamento.                                                | Me organizar financeiramente.                          |
+| Maria Ferreira       | Visualizar todas as minhas contas a pagar em uma lista ordenada por data de agendamento. | Ter uma visão geral das minhas obrigações financeiras. |
+| Ana Cézamo           | Definir lembretes de pagamento para cada conta a pagar.                                  | Lembrar de pagar as contas e evitar multas e juros.    |
+| João Nicácio         | Visualizar todas as minhas contas a pagar em uma lista.                                  | Ter uma visão geral das minhas obrigações financeiras. |
+| João Nicácio         | Marcar uma conta como paga assim que efetuar o pagamento.                                | Manter um registro atualizado.                         |
 
 > **Links Úteis**:
+>
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
 > - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 > - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
 > - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
 > - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
-## Modelagem do Processo de Negócio 
+## Modelagem do Processo de Negócio
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional.
 
 ### Descrição Geral da Proposta
 
@@ -52,7 +56,7 @@ Apresente aqui uma descrição da sua proposta abordando seus limites e suas lig
 
 ### Processo 1 – NOME DO PROCESSO
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
+Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN.
 
 ![Processo 1](img/02-bpmn-proc1.png)
 
@@ -64,62 +68,62 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 
 ## Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
+Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores.
 
-Usar o seguinte modelo: 
+Usar o seguinte modelo:
 
 ![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
+Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori.
 
+## Requisitos
 
-## Requisitos 
+O objetivo estrutural prático do projeto é definido através dos requisitos funcionais que retratam as intenções de comunicação do site com o usuário e disponibilizam as funções esperadas para utilização da ferramenta, tal como os requisitos não funcionais que representam as características técnicas que a equipe deve utilizar na estrutura da montagem do projeto. A seguir serão apresentados os aspectos.nica foi aplicada.
 
-O objetivo estrutural prático do projeto é definido através dos requisitos funcionais que retratam as intenções de comunicação do site com o usuário e disponibilizam as funções esperadas para utilização da ferramenta, tal como os requisitos não funcionais que representam as características técnicas que a equipe deve utilizar na estrutura da montagem do projeto. A seguir serão apresentados os aspectos.nica foi aplicada. 
+### Requisitos Funcionais
 
-### Requisitos Funcionais 
+O quadro a seguir exibe os requisitos funcionais da solução, apontando quais são as prioridades que devem ser atendidas:
 
-O quadro a seguir exibe os requisitos funcionais da solução, apontando quais são as prioridades que devem ser atendidas:  
+| ID     | Descrição do Requisito                                                                | Prioridade |
+| ------ | ------------------------------------------------------------------------------------- | ---------- |
+| RF-001 | A aplicação deve permitir gerenciar agendamentos de contas.                           | ALTA       |
+| RF-002 | A aplicação deve permitir gerenciar usuários.                                         | ALTA       |
+| RF-003 | O Sistema deve permitir o acesso a contas.                                            | ALTA       |
+| RF-004 | O Sistema deve permitir o cadastro de contas.                                         | ALTA       |
+| RF-005 | O Sistema deve fornecer ao usuário uma mensagem de confirmação da alteração de senha. | ALTA       |
+| RF-006 | O Sistema deve fornecer uma função para marcar contas pagas e contas a pagar.         | ALTA       |
+| RF-007 | O Sistema deve fornecer o gerenciamento de contas.                                    | ALTA       |
 
-|ID | Descrição do Requisito | Prioridade | 
-|------|-----------------------------------------|----| 
-|RF-001| A aplicação deve permitir gerenciar agendamentos de contas. | ALTA |  
-|RF-002| A aplicação deve permitir gerenciar usuários. | ALTA | 
-|RF-003| O Sistema deve permitir o acesso a contas. | ALTA | 
-|RF-004| O Sistema deve permitir o cadastro de contas. | ALTA | 
-|RF-005| O Sistema deve fornecer ao usuário uma mensagem de confirmação da alteração de senha. | ALTA | 
-|RF-006| O Sistema deve fornecer uma função para marcar contas pagas e contas a pagar. | ALTA | 
-|RF-007| O Sistema deve fornecer o gerenciamento de contas. | ALTA | 
+### Requisitos não Funcionais
 
-### Requisitos não Funcionais 
+O quadro a seguir representam as ferramentas técnicas que devem ser utilizadas no projeto no formato de requisitos não funcionais:
 
-O quadro a seguir representam as ferramentas técnicas que devem ser utilizadas no projeto no formato de requisitos não funcionais: 
+| ID      | Descrição do Requisito                                                                                     | Prioridade |
+| ------- | ---------------------------------------------------------------------------------------------------------- | ---------- |
+| RNF-001 | O sistema deve ser implementado na linguagem C#, html, CSS e Java Script.                                  | ALTA       |
+| RNF-002 | As informações de cadastro do cliente devem ficar disponiveis apenas para os clientes e para a plataforma. | ALTA       |
+| RNF-003 | O site deve estar disponível para os principais navegadores: Chrome, Firefox, Edge.                        | ALTA       |
+| RNF-004 | O sistemae deve estar disponivel 24hrs por dia, os sete dias da semana                                     | ALTA       |
+| RNF-005 | O site deve ser responsivo, compativel a qualquer tipo de aparelho. Ex: Notebook, tablet, celular.         | ALTA       |
 
-|ID | Descrição do Requisito |Prioridade | 
-|-------|-------------------------|----| 
-|RNF-001| O sistema deve ser implementado na linguagem C#, html, CSS e Java Script. | ALTA |  
-|RNF-002| As informações de cadastro do cliente devem ficar disponiveis apenas para os clientes e para a plataforma. | ALTA | 
-|RNF-003| O site deve estar disponível para os principais navegadores: Chrome, Firefox, Edge. | ALTA | 
-|RNF-004| O sistemae deve estar disponivel 24hrs por dia, os sete dias da semana | ALTA | 
-|RNF-005| O site deve ser responsivo, compativel a qualquer tipo de aparelho. Ex: Notebook, tablet, celular. | ALTA | 
+## Restrições
 
-## Restrições 
+O projeto está restrito pelos itens apresentados na tabela a seguir.
+O andamento desse projeto limita-se por deveres visíveis para a sua conclusão. O quadro a seguir exibi quais são essas limitações.
 
-O projeto está restrito pelos itens apresentados na tabela a seguir. 
-O andamento desse projeto limita-se por deveres visíveis para a sua conclusão. O quadro a seguir exibi quais são essas limitações.  
-
-|ID| Restrição | 
-|--|-------------------------------------------------------| 
-|RE-01| O projeto deve ser entregue ao final do semestre, não ultrapassando o final do semestre. | 
-|RE-02| O projeto deve ser desenvolvido em HTML, CSS, JAVA SCRIPT e C#. | 
-|RE-03| O projeto deve ser realizado pela equipe formada sem interferências externas. | 
+| ID    | Restrição                                                                                |
+| ----- | ---------------------------------------------------------------------------------------- |
+| RE-01 | O projeto deve ser entregue ao final do semestre, não ultrapassando o final do semestre. |
+| RE-02 | O projeto deve ser desenvolvido em HTML, CSS, JAVA SCRIPT e C#.                          |
+| RE-03 | O projeto deve ser realizado pela equipe formada sem interferências externas.            |
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos.
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
 
 > **Links Úteis**:
+>
 > - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
 > - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
 > - [Lucidchart](https://www.lucidchart.com/)
@@ -128,17 +132,17 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 # Matriz de Rastreabilidade
 
-A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
+A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio.
 
 A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
 
 ![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
 
 > **Links Úteis**:
+>
 > - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
 > - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
 > - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
-
 
 # Gerenciamento de Projeto
 
@@ -156,7 +160,7 @@ O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utiliz
 
 ## Gerenciamento de Equipe
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
+O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados.
 
 ![Simple Project Timeline](img/02-project-timeline.png)
 
