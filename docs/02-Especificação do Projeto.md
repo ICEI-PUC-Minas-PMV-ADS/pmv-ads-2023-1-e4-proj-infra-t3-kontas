@@ -30,23 +30,17 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional.
+Muitas vezes as pessoas tem dificuldade de organizar sua vida financeira que é a proposta do nosso aplicativo ajudar esse publico, é notório que por falta de organização pessoas atrasam pagamentos, esquecem de realizar transações entre outras.
 
 ### Descrição Geral da Proposta
 
 Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
 
-### Processo 1 – NOME DO PROCESSO
+### Processo 1 –  PROCESSO KONTAS
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN.
+![Processo 1](img/modelagem.jpg)
 
-![Processo 1](img/02-bpmn-proc1.png)
 
-### Processo 2 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
-
-![Processo 2](img/02-bpmn-proc2.png)
 
 ## Indicadores de Desempenho
 
@@ -102,15 +96,7 @@ O andamento desse projeto limita-se por deveres visíveis para a sua conclusão.
 
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
->
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+> - ![diagrama](img/diagramacaso.jpeg)
 
 # Matriz de Rastreabilidade
 
@@ -134,20 +120,19 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
 
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
+![Diagrama de rede simplificado notação francesa (método francês)](img/gerenciamentodetempo.jpeg)
 
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
 
-![Gráfico de Gantt](img/02-grafico-gantt.png)
 
 ## Gerenciamento de Equipe
 
 O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados.
 
-![Simple Project Timeline](img/02-project-timeline.png)
+![Simple Project Timeline](img/gerenciamentodeequipes.jpeg)
 
 ## Gestão de Orçamento
 
 O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
 
-![Orçamento](img/02-orcamento.png)
+![Orçamento](img/Orçamento.jpeg)
+
