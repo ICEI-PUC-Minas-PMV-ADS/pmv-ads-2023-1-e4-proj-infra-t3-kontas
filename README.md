@@ -1,5 +1,4 @@
-#  KONTAS
-
+# KONTAS
 
 `Analise e Desenvolvimento de Sistema`
 
@@ -7,19 +6,19 @@
 
 `4º SEMESTRE`
 
-Aplicação que ajude os usuários a gerenciar suas contas recorrentes, aquelas despesas que você precisa pagar todos os meses, controlar seu próprio dinheiro além programar a melhor forma de redirecioná-lo mensalmente, semanalmente e ou anualmente.  
+Aplicação que ajude os usuários a gerenciar suas contas recorrentes, aquelas despesas que você precisa pagar todos os meses, controlar seu próprio dinheiro além programar a melhor forma de redirecioná-lo mensalmente, semanalmente e ou anualmente.
 
 ## Integrantes
 
-* Aline Martins Candido 
-* Victor Bruno Kulessa
-* Rafael Pacheco Leite
-* Gabriel Judá De Oliveira
-* Jessica Raissa Araujo Oliveira Queroz Lopes
+- Aline Martins Candido
+- Victor Bruno Kulessa
+- Rafael Pacheco Leite
+- Gabriel Judá De Oliveira
+- Raíssa Araújo Oliveira Queroz Lopes
 
 ## Orientador
 
-*  Leonardo Vilela Cardoso 
+- Leonardo Vilela Cardoso
 
 ## Instruções de utilização
 
