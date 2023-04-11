@@ -16,9 +16,8 @@ namespace Kontas.API.Entities
         {
         }
 
-        public virtual DbSet<ContaPagamento> ContaPagamentos { get; set; }
         public virtual DbSet<Conta> Conta { get; set; }
-        public virtual DbSet<StatusConta> StatusConta { get; set; }
+        public virtual DbSet<ContaPagamento> ContaPagamento { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -33,19 +32,10 @@ namespace Kontas.API.Entities
             modelBuilder.Entity<ContaPagamento>(entity =>
             {
                 entity.HasOne(d => d.Conta)
-                    .WithMany(p => p.ContaPagamentos)
+                    .WithMany(p => p.ContaPagamento)
                     .HasForeignKey(d => d.ContaId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_ContaPagamento_Conta");
-            });
-
-            modelBuilder.Entity<Conta>(entity =>
-            {
-                entity.HasOne(d => d.StatusConta)
-                    .WithMany(p => p.Conta)
-                    .HasForeignKey(d => d.StatusContaId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_Conta_StatusConta");
             });
 
             OnModelCreatingPartial(modelBuilder);

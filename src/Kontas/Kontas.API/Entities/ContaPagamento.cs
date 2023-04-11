@@ -6,7 +6,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Kontas.API.Entities
 {
-    [Table("ContaPagamento")]
     public partial class ContaPagamento
     {
         [Key]
@@ -18,7 +17,7 @@ namespace Kontas.API.Entities
         public DateTime Data { get; set; }
 
         [ForeignKey("ContaId")]
-        [InverseProperty("ContaPagamentos")]
+        [InverseProperty("ContaPagamento")]
         public virtual Conta Conta { get; set; }
     }
 }

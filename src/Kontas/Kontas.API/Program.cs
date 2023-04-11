@@ -1,3 +1,4 @@
+using Kontas.API.AutoMapper;
 using Kontas.API.Entities;
 using Kontas.API.Repositories;
 using Kontas.API.Repositories.Interfaces;
@@ -15,10 +16,10 @@ builder.Services.AddDbContext<KontasDBContext>(options =>
 builder.Services.AddTransient(typeof(IRepositoryBase<>), typeof(RepositoryBase<>));
 builder.Services.AddTransient<IContaRepository, ContaRepository>();
 builder.Services.AddTransient<IContaPagamentoRepository, ContaPagamentoRepository>();
-builder.Services.AddTransient<IStatusContaRepository, StatusContaRepository>();
 
 //mapper
-builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
+builder.Services.AddAutoMapper(typeof(EntityToModelMappingProfile), typeof(ModelToEntityMappingProfile));
+
 
 // ADD services Controller
 builder.Services.AddControllers();

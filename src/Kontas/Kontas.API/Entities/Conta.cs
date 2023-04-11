@@ -10,7 +10,7 @@ namespace Kontas.API.Entities
     {
         public Conta()
         {
-            ContaPagamentos = new HashSet<ContaPagamento>();
+            ContaPagamento = new HashSet<ContaPagamento>();
         }
 
         [Key]
@@ -23,14 +23,10 @@ namespace Kontas.API.Entities
         public DateTime Vencimento { get; set; }
         [Column(TypeName = "decimal(18, 2)")]
         public decimal Valor { get; set; }
-        public int StatusContaId { get; set; }
         [Column("APagar")]
         public bool Apagar { get; set; }
 
-        [ForeignKey("StatusContaId")]
         [InverseProperty("Conta")]
-        public virtual StatusConta StatusConta { get; set; }
-        [InverseProperty("Conta")]
-        public virtual ICollection<ContaPagamento> ContaPagamentos { get; set; }
+        public virtual ICollection<ContaPagamento> ContaPagamento { get; set; }
     }
 }
