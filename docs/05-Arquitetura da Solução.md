@@ -98,3 +98,4 @@ Conceituar qualidade de fato é uma tarefa complexa, mas ela pode ser vista como
 | Capacidade para instalar | É fácil para fazer instalação? | Alto |
 | Capacidade para substituir| É fácil usar para substituir outro?| Alto |
 | Coexistência | Pode coexistir com outros produtos independentes compartilhando recursos? | Alto |
+
