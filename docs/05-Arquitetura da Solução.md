@@ -54,7 +54,15 @@ Explique como a hospedagem e o lançamento da plataforma foi feita.
 
 ## Qualidade de Software
 
-Conceituar qualidade de fato é uma tarefa complexa, mas ela pode ser vista como um método gerencial que através de procedimentos disseminados por toda a organização, busca garantir um produto final que satisfaça às expectativas dos stakeholders.
+O conceito de Qualidade de Software é um conjunto de fatores que precisam ser atendidos, isso representa que a aplicação deve estar em conformidade com as especificações de requisitos que foram combinadas junto ao cliente e também deve seguir os padrões de qualidade da empresa.
+
+Cada ferramenta terá funções específicas, necessidades e também objetivos diversos, por isso a Qualidade de Software é medida pelo atendimento às necessidades do usuário e através da realização de testes torna-se muito mais assertiva, sendo os resultados condizentes ao que o cliente espera da aplicação.
+
+Existem normas internacionais a serem seguidas pelo setor de software. A International Organization Standardization (ISO) e a International Electrotechnical Commission (IEC) são órgãos reconhecidos pela comunidade e regulam estas normas e padrões, contam com a finalidade de estabelecer um alinhamento aos membros de uma equipe para que superem suas barreiras de comunicação. 
+Podemos citar como referência a ISO/IEC 25010 para Qualidade de Software que é uma atualização da ISO/IEC 9126(NBR13596).
+
+Ccompreende então as oito características de qualidade que serão levadas em consideração ao avaliar as propriedades de um produto de software no quadro abaixo:
+
 
  | Característica de qualidade | Subcaracteristicas  |     Justificativa     | 
 |-----------------------------|--------------------------------------------|-----------------------|
