@@ -1,19 +1,88 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+### Escopo do Teste
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+-   Teste do aplicativo Contas
+-   Teste das funcionalidades principais do aplicativo, incluindo:
+    -   Adição de contas a pagar e a receber
+    -   Edição e exclusão de contas
+    -   Visualização de relatórios de contas
+    -   Notificação de contas vencidas
+-   Teste do site do aplicativo Contas, incluindo:
+    -   Criação e gerenciamento de conta de usuário
+    -   Login e logout do usuário
+    -   Adição de contas a pagar e a receber
+    -   Edição e exclusão de contas
+    -   Visualização de relatórios de contas
+    -   Notificação de contas vencidas
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
-## Ferramentas de Testes (Opcional)
+### Abordagem de Teste
 
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+-   Teste manual
+
+### Requisitos de Teste
+
+-   Funcionalidades principais do aplicativo:
+    -   Adição de contas a pagar e a receber
+    -   Edição e exclusão de contas
+    -   Visualização de relatórios de contas
+    -   Notificação de contas vencidas
+-   Funcionalidades principais do site do aplicativo:
+    -   Criação e gerenciamento de conta de usuário
+    -   Login e logout do usuário
+    -   Adição de contas a pagar e a receber
+    -   Edição e exclusão de contas
+    -   Visualização de relatórios de contas
+    -   Notificação de contas vencidas
+-   Compatibilidade do site com diferentes navegadores:
+    -   Google Chrome, Mozilla Firefox, Microsoft Edge
+
+### Ambiente de Teste
+
+-   Dispositivos móveis:
+    -   Samsung Galaxy S10 (Android 9)
+    -   iPhone 12 (iOS 14)
+-   Computadores:
+    -   PC com Windows 10
+    -   MacBook Air com macOS Big Sur
+-   Ferramentas de Teste:
+    -   Nenhum
+
+### Critérios de Entrada e Saída
+
+-   Critérios de Entrada:
+    -   Dispositivos móveis e computadores compatíveis com o aplicativo e site
+    -   Aplicativo instalado em dispositivos móveis
+    -   Contas de teste pré-cadastradas
+-   Critérios de Saída:
+    -   Relatório de Teste
+    -   Relatório de Bugs
+
+### Estratégia de Teste
+
+-   Teste Funcional
+-   Teste de Usabilidade
+
+### Programação e Recursos de Teste
+
+-   Programação:
+    -   Teste de adição de contas a pagar e a receber
+    -   Teste de edição e exclusão de contas
+    -   Teste de visualização de relatórios de contas
+    -   Teste de notificação de contas vencidas
+    -   Teste de criação e gerenciamento de conta de usuário
+    -   Teste de login e logout do usuário
+-   Recursos de Teste:
+    -   Equipe de Teste
+    -   Dispositivos móveis e computadores
+
+### Procedimentos de Execução de Teste
+
+-   Preparação:
+    -   Configuração do ambiente de teste
+    -   Instalação do aplicativo nos dispositivos móveis
+    -   Acesso ao site do aplicativo
+    -   Preparação das contas de teste
+-   Execução:
+    -   Teste de adição de contas a pagar e a receber
+        -   Verificar se as contas são adicion
