@@ -104,13 +104,24 @@ A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualizaç
 
 A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
 
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
+Segue a matriz de rastreabilidade baseada nos requisitos apresentados:
 
-> **Links Úteis**:
->
-> - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
-> - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
-> - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
+|ID do Requisito|Descrição do Requisito|Tipo de Requisito| Restrição
+|-------------------|--------------------|---------|--------|
+RF-001|Gerenciamento de agendamentos de contas|Funcional|RE-02|
+RF-002|Gerenciamento de usuários |Funcional|RE-02|
+RF-003| Acesso às contas| Funcional| RE-02|
+RF-004| Cadastro de contas| Funcional| RE-02|
+RF-005| Confirmação de alteração de senha| Funcional| RE-02|
+RF-006|Função de marcação de contas pagas e a pagar|Funcional|RE-02|
+RF-007|Gerenciamento de contas| Funcional|RE-02|
+RNF-001|Implementação em C#, HTML, CSS e Java Script|Não Funcional|RE-02|
+RNF-002|Restrição de acesso às informações de cadastro do cliente|Não Funcional|N/A|
+RNF-003|Compatibilidade com Chrome, Firefox e Edge|Não Funcional|N/A|
+RNF-004|Disponibilidade 24/7|Não Funcional|N/A|
+RNF-005|Responsividade| Não Funcional| N/A
+
+A matriz permite visualizar a rastreabilidade entre os requisitos e as restrições do projeto, facilitando a identificação dos requisitos que precisam ser atendidos para satisfazer as restrições impostas. Além disso, permite um melhor controle das relações entre requisitos, facilitando a implementação, testes e documentação do projeto.
 
 # Gerenciamento de Projeto
 
