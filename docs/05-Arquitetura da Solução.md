@@ -4,7 +4,7 @@
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
-![Arquitetura da Solução](img/02-mob-arch.png)
+![Arquitetura da Solução] 
 
 ## Diagrama de Classes
 
@@ -33,13 +33,13 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Rel
 
 ## Modelo Físico
 
-Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
+O modelo físico da aplicação se encontra na pasta [src/Kontas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t3-kontas/tree/main/src/Kontas) deste repositorio sob o nome "Kontas.Database", que contém os scripts de criação das tabelas do banco de dados.
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+Linguagens: C#;
+Frameworks: AspNetCore Web API (Framework/Template utilizado para criar a API), Entity Framework;
+Banco de dados: SQL Server (gerenciamento de sessão do usuário e gravação e relações entre as entidades, contas, contas a pagar e contas a receber) ASP.NET Core Identity (autenticação);
 
 ## Hospedagem
 
