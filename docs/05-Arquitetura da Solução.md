@@ -17,7 +17,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 ## Modelo ER
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
+O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
 
@@ -37,10 +37,11 @@ O modelo físico da aplicação se encontra na pasta [src/Kontas](https://github
 
 ## Tecnologias Utilizadas
 
+Back-end:
+
 Linguagens: C#;
 Frameworks: AspNetCore Web API (Framework/Template utilizado para criar a API), Entity Framework;
 Banco de dados: SQL Server (gerenciamento de sessão do usuário e gravação e relações entre as entidades, contas, contas a pagar e contas a receber) ASP.NET Core Identity (autenticação);
-
 ## Hospedagem
 
 Explique como a hospedagem e o lançamento da plataforma foi feita.
