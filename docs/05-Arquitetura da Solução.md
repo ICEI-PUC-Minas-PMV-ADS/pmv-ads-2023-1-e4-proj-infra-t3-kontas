@@ -33,14 +33,16 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Rel
 
 ## Modelo Físico
 
-O modelo físico da aplicação se encontra na pasta [src/Kontas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t3-kontas/tree/main/src/Kontas) deste repositorio sob o nome "Kontas.Database", que contém os scripts de criação das tabelas do banco de dados.
+O modelo físico da aplicação se encontra na pasta [src/Kontas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t3-kontas/tree/main/src/Kontas) deste repositorio sob o nome "Kontas.Database", que contém os scripts de criação das tabelas do banco de dados. 
 
 ## Tecnologias Utilizadas
 
 Back-end:
 
 Linguagens: C#;
+
 Frameworks: AspNetCore Web API (Framework/Template utilizado para criar a API), Entity Framework;
+
 Banco de dados: SQL Server (gerenciamento de sessão do usuário e gravação e relações entre as entidades, contas, contas a pagar e contas a receber) ASP.NET Core Identity (autenticação);
 ## Hospedagem
 
