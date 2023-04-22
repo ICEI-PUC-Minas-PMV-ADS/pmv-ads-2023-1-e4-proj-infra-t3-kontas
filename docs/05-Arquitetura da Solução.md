@@ -39,11 +39,9 @@ O modelo físico da aplicação se encontra na pasta [src/Kontas](https://github
 
 Back-end:
 
-Linguagens: C#;
-
-Frameworks: AspNetCore Web API (Framework/Template utilizado para criar a API), Entity Framework;
-
-Banco de dados: SQL Server (gerenciamento de sessão do usuário e gravação e relações entre as entidades, contas, contas a pagar e contas a receber) ASP.NET Core Identity (autenticação);
+- Linguagens: C#;
+- Frameworks: AspNetCore Web API (Framework/Template utilizado para criar a API), Entity Framework;
+- Banco de dados: SQL Server (gerenciamento de sessão do usuário e gravação e relações entre as entidades, contas, contas a pagar e contas a receber) ASP.NET Core Identity (autenticação);
 ## Hospedagem
 
 Explique como a hospedagem e o lançamento da plataforma foi feita.
@@ -64,7 +62,7 @@ Cada ferramenta terá funções específicas, necessidades e também objetivos d
 Existem normas internacionais a serem seguidas pelo setor de software. A International Organization Standardization (ISO) e a International Electrotechnical Commission (IEC) são órgãos reconhecidos pela comunidade e regulam estas normas e padrões, contam com a finalidade de estabelecer um alinhamento aos membros de uma equipe para que superem suas barreiras de comunicação. 
 Podemos citar como referência a ISO/IEC 25010 para Qualidade de Software que é uma atualização da ISO/IEC 9126(NBR13596).
 
-Ccompreende então as oito características de qualidade que serão levadas em consideração ao avaliar as propriedades de um produto de software no quadro abaixo:
+Compreende então as oito características de qualidade que serão levadas em consideração ao avaliar as propriedades de um produto de software no quadro abaixo:
 
 
  | Característica de qualidade | Subcaracteristicas  |     Justificativa     | 
