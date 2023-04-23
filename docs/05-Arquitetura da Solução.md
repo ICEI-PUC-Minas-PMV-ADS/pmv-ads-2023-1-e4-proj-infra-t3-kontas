@@ -39,12 +39,12 @@ O modelo físico da aplicação se encontra na pasta [src/Kontas](https://github
 
 Backend:
 
-- Linguagens: C#;
+- Linguagens: JavaScript;
 - Frameworks: AspNetCore Web API (Framework/Template utilizado para criar a API), Entity Framework;
-- Banco de dados: SQL Server (gerenciamento de sessão do usuário e gravação e relações entre as entidades, contas, contas a pagar e contas a receber) ASP.NET Core Identity (autenticação);
+- Banco de dados:  MySQL (gerenciamento de sessão do usuário e gravação e relações entre as entidades, contas, contas a pagar e contas a receber) e Spring Boot (autenticação);
 ## Hospedagem
 
-Os componentes da solução serão hospedados na plataforma Microsoft Azure. A plataforma foi escolhida em razão da parceria que a PUC Minas possui com a Microsoft Azure, permitindo acesso gratuito a muitos de seus serviços dentro de uma determinado valor e de sua versatilidade para a hospedagem das diferentes partes da solução (banco de dados, API em ASPNET.CORE).
+Os componentes da solução serão hospedados na plataforma Microsoft Azure. A plataforma foi escolhida em razão da parceria que a PUC Minas possui com a Microsoft Azure, permitindo acesso gratuito a muitos de seus serviços dentro de uma determinado valor e de sua versatilidade para a hospedagem das diferentes partes da solução ( banco de dados )
 ## Qualidade de Software
 
 O conceito de Qualidade de Software é um conjunto de fatores que precisam ser atendidos, isso representa que a aplicação deve estar em conformidade com as especificações de requisitos que foram combinadas junto ao cliente e também deve seguir os padrões de qualidade da empresa.
