@@ -1,0 +1,27 @@
+button {
+  border-radius: 20px;
+  border: none;
+  background-color: #b59974;
+  color: #ffffff;
+  padding: 10px 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444444;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+.home-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #004498;
+  padding: 50px;
+  text-align: center;
+}
