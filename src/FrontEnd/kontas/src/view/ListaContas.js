@@ -10,7 +10,13 @@ function ListaContas() {
             <h3>{conta.descricao}</h3>
             <p>R$ {conta.valor}</p>
             <p>{conta.dataVencimento}</p>
-            <p>{conta.status}</p>
+            <p
+              className={
+                conta.status === "Pendente" ? "status_a_pagar" : "status_pago"
+              }
+            >
+              {conta.status}
+            </p>
           </div>
         ))}
       </div>

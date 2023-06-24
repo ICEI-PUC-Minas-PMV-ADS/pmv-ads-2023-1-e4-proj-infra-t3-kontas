@@ -12,10 +12,6 @@ button:hover {
   background-color: #444444;
 }
 
-h1 {
-  color: #ffffff;
-}
-
 .home-box {
   position: absolute;
   top: 50%;
@@ -24,4 +20,5 @@ h1 {
   background: #004498;
   padding: 50px;
   text-align: center;
+  color: #ffffff;
 }
