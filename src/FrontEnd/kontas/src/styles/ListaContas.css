@@ -34,3 +34,12 @@
   padding: 2%;
 }
 
+.status_a_pagar {
+  background-color: #b59974;
+  border-radius: 5px;
+}
+
+.status_pago {
+  background-color: greenyellow;
+  border-radius: 5px;
+}

@@ -7,6 +7,7 @@ import Login from "./view/Login";
 import Cadastro from "./view/Cadastro";
 import RecuperarSenha from "./view/RecuperarSenha";
 import HomeKontas from "./view/HomeKontas";
+import Atualizar from "./view/Atualizar";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <HomeKontas />,
+  },
+  {
+    path: "atualizar",
+    element: <Atualizar />,
   },
 ]);
 

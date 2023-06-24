@@ -4,13 +4,13 @@
     "id": 1,
     "valor": 1500,
     "dataVencimento": "22/08/2023",
-    "status": "a pagar"
+    "status": "Pendente"
   },
   {
     "descricao": "Conta de energia",
     "id": 2,
     "valor": 300,
     "dataVencimento": "15/07/2023",
-    "status": "a pagar"
+    "status": "Pendente"
   }
 ]
